@@ -1,0 +1,27 @@
+export default [
+    {
+        id:100,
+        name:'Mario',
+        city:'Assiut'
+    },
+    {
+        id:200,
+        name:'Abdo',
+        city:'Cairo'
+    },
+    {
+        id:300,
+        name:"Islam",
+        city:"Alexandrai"
+    },
+    {
+        id:400,
+        name:'Gehad',
+        city:'Minya'
+    },
+    {
+        id:500,
+        name:'Norhan',
+        city:'Aswan'
+    }
+]

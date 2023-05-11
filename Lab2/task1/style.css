@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+   font-family: "Open Sans", sans-serif;
+   font-size: 18px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px; 
+}
+
+form {
+    width: 500px;
+    margin: 20px auto; 
+}
+
+.errors-list .error {
+    padding: 15px;
+    background-color: rgba(244, 67, 54, 0.14);
+    color: #f44336;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.form-input {
+    padding: 10px 15px;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  textarea {
+    height: 120px;
+    resize: none;
+  }
+  .send-button {
+    display: block;
+    background-color: #2196f3;
+    color: #fff;
+    border-color: transparent;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 24px;
+  }
